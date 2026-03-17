@@ -1,0 +1,1 @@
+Tämä on Laurean websivuston kehittämisen kurssin työkansio. Kevät 2026
