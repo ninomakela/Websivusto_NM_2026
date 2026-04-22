@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ninon sivu</title>
+    <style>
+      h1 {
+        color: rgb(99, 103, 255);
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="animation-box"></div>
+    <header>
+      <h1>Verkkosivuni</h1>
+      <nav class="responsive-nav">
+        <button class="menu-toggle">☰ Menu</button>
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>
+      Ninon sivu
+      <p>tämä on Ninon sivu, jossa harjoitellaan HTML-koodia</p>
+      <h1 style="color: rgb(255, 219, 253)">Tervehdys kaikille!</h1>
+      <img
+        src="./images/dog.png"
+        width="500"
+        height="300"
+        alt="koira o.O"
+        class="filter-image"
+      />
+      <img
+        src="./images/minä.jpg"
+        width="300"
+        height="650"
+        alt="Responsive Image minä"
+        class="responsive-image filter-image"
+      />
+      <button class="transition-button">Hover me</button>
+      <blockquote class="quote">insert awesome quote.</blockquote>
+    </h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <main>
+      <section id="about">
+        <h2>Tietoa minusta</h2>
+        <p>Tämä paragrafi kertoo minusta.</p>
+      </section>
+    </main>
+    <h2>Lista harrastuksistani</h2>
+    <ul>
+      <li>Videopelit</li>
+      <li>Autolla ajelu</li>
+      <li>Nukkuminen</li>
+    </ul>
+    <ul class="pseudo-list">
+      <li>1 :P</li>
+      <li>2 :)</li>
+      <li>3 :D</li>
+      <li>4 :O</li>
+    </ul>
+    <a href="https://www.alko.fi/fi">Vieraile lempi sivullani!</a>
+    <div class="media-query-box">Resize the window to see the effect</div>
+    <table>
+      <tr>
+        <th>tämän hetkiset</th>
+        <th>kurssini</th>
+      </tr>
+      <tr>
+        <td>Web kehitys</td>
+        <td>Liiketoiminta</td>
+      </tr>
+      <tr>
+        <td>Englanti</td>
+        <td>Asiantuntijaviestintä</td>
+      </tr>
+    </table>
+    <div class="responsive-container">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+    </div>
+    <div class="content-box">
+      <h3>Esimerkki</h3>
+      <p>Tämä on esimerkkiparagrafi div-elementissä.</p>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+    </div>
+    <div class="flex-container">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+    <div class="responsive-box">Resize the window to see the effect</div>
+    <footer>
+      <p>Copyright Nino Mäkelä 2025</p>
+    </footer>
+  </body>
+</html>
