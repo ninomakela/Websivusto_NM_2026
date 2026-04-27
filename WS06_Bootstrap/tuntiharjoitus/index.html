@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ninon sivu</title>
+    <style>
+      h1 {
+        color: rgb(99, 103, 255);
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="animation-box"></div>
+    <header>
+      <h1>Verkkosivuni</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">I</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Koti</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Yhteystiedot</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1>
+      Ninon sivu
+      <p>tämä on Ninon sivu, jossa harjoitellaan HTML-koodia</p>
+      <h1 style="color: rgb(255, 219, 253)">Tervehdys kaikille!</h1>
+      <div class="card" style="width: 18rem">
+        <img
+          src="./images/dog.png"
+          class="card-img-top"
+          alt="Card Image of dog"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Koira :D</h5>
+          <p class="card-text">Dog Card Image.</p>
+          <a href="#" class="btn btn-primary">Lisää tietoa</a>
+        </div>
+      </div>
+      <img
+        src="./images/minä.jpg"
+        width="300"
+        height="650"
+        alt="Responsive Image minä"
+        class="responsive-image filter-image"
+      />
+      <button class="transition-button">Hover me</button>
+      <blockquote class="quote">insert awesome quote.</blockquote>
+    </h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <main>
+      <section id="about">
+        <h2>Tietoa minusta</h2>
+        <p>Tämä paragrafi kertoo minusta.</p>
+      </section>
+      <div class="alert alert-success" role="alert">
+        This is a success alert—so cool!
+      </div>
+    </main>
+    <h2>Lista harrastuksistani</h2>
+    <ul>
+      <li>Videopelit</li>
+      <li>Autolla ajelu</li>
+      <li>Nukkuminen</li>
+    </ul>
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-success">Success</button>
+    <ul class="pseudo-list">
+      <li>1 :P</li>
+      <li>2 :)</li>
+      <li>3 :D</li>
+      <li>4 :O</li>
+    </ul>
+    <a href="https://www.alko.fi/fi">Vieraile lempi sivullani!</a>
+    <div class="media-query-box">Resize the window to see the effect</div>
+    <table>
+      <tr>
+        <th>tämän hetkiset</th>
+        <th>kurssini</th>
+      </tr>
+      <tr>
+        <td>Web kehitys</td>
+        <td>Liiketoiminta</td>
+      </tr>
+      <tr>
+        <td>Englanti</td>
+        <td>Asiantuntijaviestintä</td>
+      </tr>
+    </table>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-12">Rivi 1</div>
+        <div class="col-md-4 col-12">Rivi 2</div>
+        <div class="col-md-4 col-12">Rivi 3</div>
+      </div>
+    </div>
+    <div class="content-box">
+      <h3>Esimerkki</h3>
+      <p>Tämä on esimerkkiparagrafi div-elementissä.</p>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+    </div>
+    <div class="flex-container">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+    <div class="responsive-box">Resize the window to see the effect</div>
+    <footer>
+      <p>Copyright Nino Mäkelä 2025</p>
+    </footer>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
