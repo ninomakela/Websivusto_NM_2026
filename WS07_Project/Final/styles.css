@@ -41,9 +41,8 @@ p {
 }
 .card {
   background-color: rgb(255, 176, 30);
-  position:fixed;
-  bottom: 10%;
-  left: 5%;
+  left: 100px;
+  top: 100px;
 }
 .card img {
   transition: transform 0.3s;
