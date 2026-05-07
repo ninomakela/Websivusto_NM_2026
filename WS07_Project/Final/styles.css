@@ -29,8 +29,8 @@ p {
       .animation-box {
   position: fixed;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 70%;
+  transform: translateX(-70%);
 }
 .custom-navbar {
   background-color: rgb(255, 176, 30);
@@ -41,6 +41,7 @@ p {
 }
 .card {
   background-color: rgb(255, 176, 30);
+  position: relative;
   left: 100px;
   top: 100px;
 }
@@ -49,5 +50,14 @@ p {
 }
 
 .card img:hover {
-  transform: scale(1.6);
+  transform: scale(1.4);
 }
+ .hero {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url(./images/gar.jpg) center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
