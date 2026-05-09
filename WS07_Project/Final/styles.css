@@ -61,3 +61,29 @@ p {
       justify-content: center;
       text-align: center;
     }
+    .carousel-inner > .item > img {
+   width:300px;
+   height:100px;
+ }
+ .carousel {
+   width:550px;
+   height:360px;
+    margin:0 auto;
+ }
+ .carousel-caption {
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 10px;
+   border-radius: 5px;
+   bottom: 10%;
+    transform: translate(0, 50%);
+ }
+  .carousel-caption h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  @media (min-width: 992px) {
+    .carousel-caption h5 {
+      font-size: 4rem;
+    }
+  }
